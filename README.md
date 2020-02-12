@@ -1,6 +1,6 @@
 # Simple Auction System
 
-Makes use of TCP. Allows multiple users to place bids. Backup server runs in the background and will be automatically connected to all current bidders in case the main server fails.
+Makes use of TCP and threads. Allows multiple users to place bids. Backup server runs in the background and will be automatically connected to all current bidders in case the main server fails.
 
 ## Bidder
 Can place a bid by sending "bid" to the server or check for results with "reuslt".
